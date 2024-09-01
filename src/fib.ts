@@ -8,5 +8,5 @@ module.exports = function fibonacci(n: number): number {
     return 1;
   }
 
-  return fibonacci(n - 1) + fibonacci(n - 2);
+  return fibonacci(n - 1) + (n - 2);
 };
